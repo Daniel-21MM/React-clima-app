@@ -12,8 +12,8 @@ export default function Card({ values, icon }) {
     
               <div className="card-footer">
                 <p className="temp-max-min">
-                  MIN: {values.main.temp_min.toFixed(0)}&deg; |{" "}
-                  MAX:{values.main.temp_max.toFixed(0)}&deg;
+                  Min: {values.main.temp_min.toFixed(0)}&deg; |{" "}
+                  Max: {values.main.temp_max.toFixed(0)}&deg;
                 </p>
               </div>
             </div>
